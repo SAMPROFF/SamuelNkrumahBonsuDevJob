@@ -1,0 +1,17 @@
+.job__details {
+  max-width: 730px;
+  margin: 0 auto;
+  background: var(--card-bg);
+  border-radius: 6px;
+  padding: 2.5rem 1.5rem;
+  color: var(--text-secondary);
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+@media (min-width: 768px) {
+  .job__details {
+    padding: 3rem;
+  }
+}

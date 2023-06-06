@@ -1,0 +1,34 @@
+.search__title_container {
+  display: flex;
+  flex: 1;
+}
+
+.search__title_container input {
+  padding-left: 0.5rem;
+  width: 100%;
+  outline: none;
+  background-color: inherit;
+  color: var(--text-primary);
+
+  border: none;
+}
+
+@media (min-width: 768px) {
+  .search__title_container {
+    max-width: 447px;
+    padding-right: 1rem;
+    gap: 1rem;
+  }
+
+  .search__title_container input {
+    width: 174px;
+    overflow: hidden;
+    padding: 0;
+  }
+}
+
+@media (min-width: 1100px) {
+  .search__title_container input {
+    width: 100%;
+  }
+}

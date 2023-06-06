@@ -1,0 +1,17 @@
+.button {
+  padding: 1em 0.875em;
+  height: 3em;
+  background-color: var(--accent);
+  border: none;
+  border-radius: 6px;
+  color: #ffffff;
+  font-weight: bold;
+  line-height: 19.84px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: 0.3s all;
+}
+
+.button:hover {
+  background-color: var(--accent-hover);
+}

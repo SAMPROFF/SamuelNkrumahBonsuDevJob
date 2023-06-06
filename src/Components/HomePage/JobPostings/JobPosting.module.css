@@ -1,0 +1,53 @@
+.job__posting {
+  position: relative;
+  padding: 3rem 2rem 2rem;
+  background: var(--card-bg);
+  border-radius: 6px;
+}
+
+.job__logo_container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  top: 0;
+  position: absolute;
+  transform: translateY(-25px);
+  border-radius: 15px;
+  width: 50px;
+  height: 50px;
+}
+
+.job__posted {
+  display: flex;
+  gap: 0.75rem;
+  color: var(--text-secondary);
+}
+
+.job__styled_seperator {
+  transform: scale(2) translateY(-2px);
+}
+
+.job__position {
+  color: var(--text-primary);
+  font-size: 1.25rem;
+  font-weight: bold;
+  line-height: 25px;
+  margin: 12px 0;
+  cursor: pointer;
+  transition: 0.3s all;
+}
+
+.job__position:hover {
+  color: var(--text-secondary);
+}
+
+.job__company {
+  color: var(--text-secondary);
+  margin-bottom: 27px;
+}
+
+.job__location {
+  font-size: 0.875rem;
+  font-weight: bold;
+  color: var(--accent);
+}
